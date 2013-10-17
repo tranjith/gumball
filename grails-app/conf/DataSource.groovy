@@ -16,8 +16,7 @@ environments {
 		    dataSource {
 			      dbCreate = "update" // one of 'create', 'create-drop','update'
 			      //url = "jdbc:mysql://localhost:3306/GrailsGumball_development"
-				  url = "jdbc:h2:cmpe281;MVCC=TRUE;LOCK_TIMEOUT=10000"
-				  //url = "jdbc:mysql://localhost:3306/cmpe281"
+				  url = "jdbc:mysql://localhost:3306/cmpe281"
 		    }
 	  }
 	  test {
